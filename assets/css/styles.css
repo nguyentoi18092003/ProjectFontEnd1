@@ -72,3 +72,96 @@
     font-size: 24px;/* vua co the la font chu vua la font cua icon luon*/
     color: var(--color-one);/* vua co the la mau chu vua la mau cua icon luon*/
 }
+/* Section-1 */
+.section-one{
+    background: var(--color-bg);
+    padding: 60px 0;
+}
+.section-one .inner-wrap{
+    display:flex;
+}
+.section-one .inner-content{
+    width:50%;
+}
+.section-one .inner-content .inner-title{
+    font-size:68px;
+    font-weight:500;/*do thanh manh cua chu*/
+    color: var(--color-one);
+    margin-top:0;/*The h1 thi thuong co san margin top va margin bottom nen o day mk k muon co margin top thi mk dat la 0*/
+
+}
+.section-one .inner-content .inner-desc{
+    font-size:24px;
+    color: var(--color-one);
+}
+.section-one .inner-image{
+    width:50%;
+    position:relative;
+}
+.section-one .inner-image img{
+    width:100%;
+    height:auto;
+}
+.section-one .inner-image .inner-sale{
+    background: var(--color-two);
+    display:inline-flex;
+    align-items: center;/*cho chu vao chinh giua theo truc 0x*/
+    justify-content: center;/*cho chu vao chinh giua theo truc 0y, gop ca 2 dong no se roi dung giua hinh tron*/
+    flex-direction: column;/*chu only $25 dang nam ngang thi chuyen sang nam doc*/
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    color:var(--color-one);
+    position:absolute;/*cho cai hinh tron len goc*/
+    top: 0px;
+    right: 110px;
+    /* sau khi position xong thi top right de can chinh lai cho phu hop  */
+}
+.section-one .inner-image .inner-sale span:nth-child(1){
+    font-size: 22px;
+    margin-bottom:6px;
+}
+.section-one .inner-image .inner-sale span:nth-child(2){
+    font-size: 48px;
+    font-weight:700;
+}
+.section-one .inner-content .inner-list{
+    display: flex;  
+    margin-bottom:40px;
+}
+.section-one .inner-content .inner-item{
+    width: 50%;/*Moi item chiem 50% box cha*/
+    color: var(--color-text);
+    
+}
+.section-one .inner-content .inner-item i{
+    font-size:20px;
+    margin-right:6px;
+
+}
+/*End section 1*/
+/*Button*/
+.button{
+    background:gray;
+    color:#fff;
+    border:2px solid gray;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius:45px;
+    font-size:18px;
+}
+.button:hover{
+    background:#fff;
+    color:gray;
+}
+.button-two{
+    /*hover thi khi tro chuot vao no se vao doan css nay*/
+    background:var(--color-two);
+    border-color:var(--color-two);
+} 
+.button-two:hover{
+    /*hover thi khi tro chuot vao no se vao doan css nay*/
+    background:#fff;
+    color:var(--color-two);
+} 
+/*End Button*/
