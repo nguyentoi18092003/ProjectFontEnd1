@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/* Nhung font chu len trang font google de tim */
+:root{
+    --color-one:#103178;
+    --color-two:#FEC700;
+    --color-text:#5b6c8f;
+    --font: 'Inria Serif',serif;
+}
+.container{
+    width: 100%;
+    max-width:1000px;
+    /* man hinh co rong hon nua thi chieu rong toi da cua container cx chi la 1000 thoi */
+    margin: 0 auto;
+    /* tu dong can cai khoi do ra giua , 0 la khoang cach ben tren ben duoi, auto binh thuog cho so se la can trai phai neu dung auto thi se la tu dong can deu ra giua luon*/
+}
+a{
+    text-decoration: none;
+    /* bo di dau gach chan cho the a */
+
+}

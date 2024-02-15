@@ -1,0 +1,74 @@
+.header{
+    /* Do bong */
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.header-top{
+    background: var(--color-one);
+    color: var(--color-two);
+    /* Mau chu */
+    text-align:center;
+    /* Can chu ra giua */
+    padding: 6px;
+    font-size:18px;
+}
+.header-main{
+    padding: 15px 0;
+    /* Tren duoi 15 trai phai 0 */
+}
+.header-main .inner-wrap{
+    /* Tu box cha tim vao trong  innerwrap muc dich la de cac the ben trong innerwrap cho no thanh 1 hang */
+    display:flex; /* thanh 1 hang */
+    justify-content:space-between;/*de cac item cach deu nhau va dau cuoi sat le*/
+    align-items:center;/*cau lenh display kia ms cho thanh 1 hang, cau lenh nay cho thang chinh giua*/
+}
+.header-main .inner-logo a{
+    display: inline-flex;/*de can tren cung 1 hang tren truc ox*/
+    align-items: center;/*display ms cho len 1 hang nhung co cai nay no ms can giua*/
+}
+.header-main .inner-logo img{
+    height: 50px;
+    width: auto;
+
+}
+.header-main .inner-logo span{
+   font-size: 24px;
+   font-weight:600;
+   color: var(--color-one);
+   margin-left: 6px;/*cho cach cai logo 6px*/
+}
+.header-main .inner-menu ul{
+    display:flex;
+    list-style-type: none;/*de an di icon cua the li*/
+    padding:0;
+    margin:0;
+    /* vi the ul no tu css co padding tren duoi 1 doan , margin left 1 doan mk k thich mk cho =0 */
+}
+.header-main .inner-menu ul li{
+    margin:0 10px;/*cho cac li cacch tren duoi la 0, trai phai la 10px;*/
+}
+.header-main .inner-menu ul li a{
+    font-size:18px;
+    color: var(--color-one);
+}
+.header-main .inner-menu ul li a:hover{
+    /* khi di chuot den the a no se vao css trong nay */
+    color:#47b5ed;
+}
+.header-main .inner-contact{
+    font-size: 18px;
+    color: var(--color-text);   
+}
+.header-main .inner-social ul{
+    display: flex;
+    list-style-type: none;/*de an di icon cua the li*/
+    padding:0;
+    margin:0;
+
+}
+.header-main .inner-social ul li{
+    margin-left: 15px;/*cho cac li cacch tren duoi la 0, trai phai la 10px;*/
+}
+.header-main .inner-social ul li a{
+    font-size: 24px;/* vua co the la font chu vua la font cua icon luon*/
+    color: var(--color-one);/* vua co the la mau chu vua la mau cua icon luon*/
+}
