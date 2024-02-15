@@ -149,6 +149,7 @@
     padding: 12px 30px;
     border-radius:45px;
     font-size:18px;
+    cursor:pointer;/*khi dua con tro vao nut thi no se chuyen thanh hinh ban tay*/
 }
 .button:hover{
     background:#fff;
@@ -165,3 +166,85 @@
     color:var(--color-two);
 } 
 /*End Button*/
+/*Section two*/
+.section-two{
+    padding: 60px 0;
+}
+.section-two .inner-wrap{
+    display:flex;
+    justify-content:space-between;
+    /* Tu dong can deu cac item 2 cai ngoai cung sat le luon */
+}
+.section-two img{
+    width: 150px;
+    height:auto;
+}
+.section-two .inner-box{
+    width:32%;
+    position:relative;
+    /* Box cha de relative lat boc con de absolute */
+    aspect-ratio: 16/9;/*Ty le width/height*/
+}
+.section-two .inner-box img{
+    width:100%;
+    height:100%;
+    object-fit: cover;/*Anh tu dong co dan va cat di sao cho vua cai khung*/
+    /* tuong tu nhu background-size nhung de ap dung cho the image */
+}
+.section-two .inner-content{
+    position:absolute;/*neu k co cai nay chu no lam anh huong den chieu cao cua anh*/
+    top:0;/*cach box cha la 0*/
+    left:0;
+    padding: 15px;
+}
+.section-two .inner-content .inner-tag{
+    background:#13A050;
+    width: 56px;
+    padding:5px;
+    text-align:center ;/*cho chu can giua*/
+    border-radius:20px;
+    color:#fff;
+    margin-bottom:10px;
+}
+.section-two .inner-content .inner-title{
+    color:var(--color-one);
+    font-size:18px;
+    margin-bottom:20px;
+}
+.section-two .inner-box:nth-child(1) .inner-content .inner-title{
+    color:#fff;
+}
+.section-two .inner-box .inner-content .inner-sale{
+    font-size: 32px;
+    font-weight: 600;
+    color:var(--color-two);
+    margin-bottom:10px;
+}
+.section-two .inner-box .inner-content .inner-price-new{
+    font-size: 22px;
+    font-weight: 600;
+    color:var(--color-two);
+    margin-bottom:10px;
+    
+
+}
+.section-two .inner-box .inner-content .inner-price-old{
+    color:var(--color-text);
+    font-size:14px;
+    font-weight: 600;
+    text-decoration:line-through ;/*gach gia cu*/
+    /* margin-bottom: 10px;  */
+    
+}
+.button-one{
+    /*hover thi khi tro chuot vao no se vao doan css nay*/
+    background:var(--color-one);
+    border-color:var(--color-one);
+} 
+.button-one:hover{
+    /*hover thi khi tro chuot vao no se vao doan css nay*/
+    background:#fff;
+    color:var(--color-one);
+    
+} 
+/*End section two*/
