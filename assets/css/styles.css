@@ -306,6 +306,42 @@
 }
 /* End Section-three */
 /*section-4 Tu code*/
-.section-five{
-    
+.section-four .inner-wrap{
+    display:flex;
+}
+.section-four .inner-content{
+    width:50%; 
+    margin-top:100px;
+}
+.section-four .inner-content h1{
+    color: var(--color-one);
+    font-size:60px;
+    font-family: --font;
+    font-weight: 10px;
+}
+.section-four .inner-content p{
+    font-size:24px;
+    color:var(--color-text);
+    max-width: 450px ;
+}
+.section-four .inner-content .button{
+    color: none;
+    background: var(--color-two);
+    margin-top:25px;
+}
+.section-four .inner-content .button:hover{
+    color:var(--color-two);
+    background: none;
+
+}
+.section-four .inner-image{
+    width:50%; 
+        
+}
+.section-four .inner-image img{
+    width:auto;
+    height:500px;
+    margin-left:0;
+    margin-top:100px;
+
 }
