@@ -328,6 +328,7 @@
     color: none;
     background: var(--color-two);
     margin-top:25px;
+    border-color:var(--color-two);
 }
 .section-four .inner-content .button:hover{
     color:var(--color-two);
@@ -345,3 +346,31 @@
     margin-top:100px;
 
 }
+/* section-five */
+.section-five {
+    background:var(--color-bg) ;
+    padding: 60px 0;
+}
+.section-five .inner-wrap{
+    background-image: url(../images/features2.jpg);
+    display:flex;
+    background-position: center;
+    padding:30px;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+.section-five .inner-content{
+    color:#fff;
+    font-size:20px;
+}
+.button-green{
+    background: var(--color-green);
+    border-color:var(--color-green);
+}
+.button-green:hover{
+    background:none;
+    color:var(--color-green);
+
+}
+/* End section-five */
