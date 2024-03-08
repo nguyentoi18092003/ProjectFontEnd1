@@ -248,3 +248,64 @@
     
 } 
 /*End section two*/
+
+/* Section-three */
+.section-three{
+    padding: 60px 0;
+    background:var(--color-bg);
+}
+.section-three .inner-wrap{
+    display:flex;/*de can tren 1 dong*/
+    justify-content: space-evenly;
+}
+.section-three .inner-box{
+    text-align: center;
+    width: 32%;
+
+}
+.box-head{
+    margin-bottom:30px;
+    max-width: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    /* dung margin-left va margin right de can giua khong dung text-align vi cai nay chi dung can giua noi dung ben trong chu k phai cho han cai the voa giua; */
+}
+
+.box-head .inner-title{
+    font-size:38px;
+    color: var(--color-one);
+    margin-top:0;
+    margin-bottom:0;
+
+}
+.box-head .inner-desc{
+    margin-top:10px;
+    margin-bottom:0;
+    /* The p no se co margin nhat dinh */
+    font-size:18px;
+    color: var(--color-text);
+}
+.section-three .inner-box > i {
+    /* dau mui ten the hien no se tim the i ngay ben trong no */
+    font-size: 32px;
+    color: var(--color-text);
+}
+.section-three .inner-box .inner-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size:24px;
+    color:var(--color-one);
+
+}
+.section-three .inner-box .inner-desc{
+    font-size:18px;
+    color: var(--color-text);
+    max-width:250px ;
+    margin: 0 auto;
+
+}
+/* End Section-three */
+/*section-4 Tu code*/
+.section-five{
+    
+}
