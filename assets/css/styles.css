@@ -446,6 +446,17 @@
     border-radius:45px;
     
 }
+.section-seven .inner-input form{
+    margin-right:10px;
+    padding :30px 30px;
+    
+   
+}
+.section-seven .inner-input form input{
+    padding :10px 80px;
+    border-radius:45px;
+    border: #FFFFFF;
+}
 /* End section-seven */
 
 /* section-eight */
@@ -538,6 +549,17 @@
     margin-right:15px;
     color:var(--color-text);
     font-size:20px;
+    
+}
+.section-nine .inner-wrap .inner-support .inner-method span{
+    border:1px solid var(--color-one);
+    border-radius: 45px;
+    padding:15px 15px;
+}
+.add{
+    border-top: 0.5px solid var(--color-text);
+    border-bottom: 0.5px solid var(--color-text);
+    padding-bottom:70px;
     
 }
 .section-nine .inner-wrap .inner-map iframe{
